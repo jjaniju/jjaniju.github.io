@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+#clock {
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+.glow-box {
+    background-color: rgb(231, 0, 0);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #00317ace;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 80%;
+    transition: box-shadow 0.15s;
+}
+
+.glow-box:hover {
+    opacity: 0.9;
+
+  }
+
+  .glow-box:active {
+    opacity: 0.6;
+
+  
+  }
+  .news-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news-list li {
+    margin: 20px 0;
+}
+
+.news-list a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.0em;
+}
+
+.news-list a:hover {
+    text-decoration: underline;
+}
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10;
+    margin-right: 10;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+}
+#namedays {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
